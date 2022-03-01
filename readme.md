@@ -4,7 +4,7 @@ Rodando essa biblioteca, é possível passar um arquivo de texto como parâmetro
 ## Sobre o Projeto
 A ideia do projeto foi para aplicar, práticar e melhorar minhas habilidades técnicas em desenvolvimento back-end. 
 
-**Acesse a lib no NPM clicando aqui**: 
+**Acesse a lib no NPM clicando aqui**: https://www.npmjs.com/package/get-urls-status
 
 ## Novas versões
 Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas versões. 
