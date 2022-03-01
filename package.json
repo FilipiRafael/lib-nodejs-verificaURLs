@@ -1,15 +1,27 @@
 {
-  "name": "lib-markdown",
+  "name": "get-urls-status",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Running this library, it is possible to pass a text file as a parameter, and get the urls and respectively the status code of each one found in a given text file, thus showing if a URL is OK (200) or broken (404).",
+  "main": "./cli.js",
   "scripts": {
     "test": "jest ./test",
-    "cli": "node cli.js ../arquivos/texto1.md"
+    "cli": "node cli.js ./arquivos/texto1.md"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipirafael/lib-nodejs-verificaURLs.git"
+  },
+  "homepage": "https://github.com/FilipiRafael/lib-nodejs-verificaURLs",
+  "bugs": {
+    "url":"https://github.com/FilipiRafael/lib-nodejs-verificaURLs",
+    "email":"filipirafael.123@gmail.com"
+  },
+  "keywords": ["URL", "getURL", "statuscode", "testURL", "markdown"],
+  "author": "Filipi Rafael",
   "license": "ISC",
+  "bin": {
+    "get-urls-status": "./cli.js"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "node-fetch": "^2.6.1"
